@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code - Contatos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="conteiner-principal" id="topo">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="imagens/logo.png" alt="logo site"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="cliente.html">clientes</a></li>
+                    <li><a href="sobre.html">sobre</a></li>
+                    <li><a href="#topo">contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="img-titulo">
+            <img src="imagens/contato.png" alt="contato">
+        </div>
+        <section id="txt-contato">
+            <form name="meu_form" action="" id="meu_form">
+                <p class="nome">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nomeid" placeholder="Ex: Fulano Silva" required name="nome" />
+                </p>
+                <p class="fone">
+                    <label for="fone">Fone:</label><br>
+                    <input type="phone" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone">
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="emailid" placeholder="fulano@mail.com" required />
+                </p>
+                <p>
+                    <textarea placeholder="mensagem" required="required">
+
+                    </textarea>
+                </p>
+                <button type="submit" form="meu_form">Enviar</button>
+            </form>
+            <div id="conta-data">
+                <h4>Code - Desenvolvimento de sites</h4>
+                <h5><img src="imagens/icoadress.png" alt="endereço">Avenida Novos Conhecimentos n 2016</h5><br>
+                <h5><img src="imagens/icoTelefone.png" alt="telefone">+55 11 9999-9999</h5><br>
+                <h5><img src="imagens/icoface.png" alt="facebook">facebook.com\codedev</h5><br>
+                <h5><img src="imagens/icoinsta.png" alt="instagram">@codedev</h5><br>
+            </div>
+        </section>
+        </div>
+</body>
+</html>
